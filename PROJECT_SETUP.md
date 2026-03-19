@@ -33,6 +33,8 @@ Core functional areas included in the design:
 - `.env.example`
 - `.env`
 - `docker-compose.yml`
+- `README.md`
+- `HANDOFF.md`
 
 ## Prisma Schema Design
 
@@ -224,6 +226,9 @@ Completed:
 - Docker compose file created
 - Seed script created
 - Seed dependencies installed
+- Root README created
+- Developer handoff document created
+- Repository pushed to GitHub
 
 Blocked in this environment:
 
@@ -241,3 +246,11 @@ npx prisma db seed
 ```
 
 After that, the database should be live and seeded with the base ERP master data.
+
+## Handoff Docs
+
+For the next developer, start here:
+
+- `README.md`
+- `HANDOFF.md`
+- `PROJECT_SETUP.md`
